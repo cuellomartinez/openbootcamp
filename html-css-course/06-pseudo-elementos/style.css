@@ -1,0 +1,31 @@
+
+div {
+    text-align: center;
+    line-height: 100vh
+}
+
+.btn {
+    text-align: center;
+    padding: .5rem;
+}
+
+
+#span-2 {
+}
+
+.btn::before{
+    content: 'Pasa por encima ';
+}
+.btn::before:hover{
+    visibility: hidden;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+    padding: 1rem;
+}
+.btn::after {
+    content: '¡Hecho!';
+}
+
